@@ -15,4 +15,7 @@ echo [$(date)]: "installing the dev requirements"
 
 pip install -r requirements_dev.txt
 
+export PATH="/c/Users/Windows/Anaconda3/bin:$PATH"
+
+
 echo [$(date)]: "END" 
