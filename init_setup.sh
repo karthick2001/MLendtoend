@@ -15,7 +15,17 @@ echo [$(date)]: "installing the dev requirements"
 
 pip install -r requirements_dev.txt
 
-export PATH="/c/Users/Windows/Anaconda3/bin:$PATH"
-
 
 echo [$(date)]: "END" 
+echo "If conda is not recognized, follow these steps:
+1. Open the .bashrc file using a text editor:
+   nano ~/.bashrc
+
+2. Add Anaconda to PATH by adding the following lines to the .bashrc file:
+   export PATH=\"/c/Users/<YourUsername>/Anaconda3/Library/bin:/c/Users/<YourUsername>/Anaconda3/Scripts:/c/Users/<YourUsername>/Anaconda3:\$PATH\"
+
+3. Source the .bashrc file to apply the changes:
+   source ~/.bashrc"
+
+
+
